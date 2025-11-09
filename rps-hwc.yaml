@@ -1,0 +1,12 @@
+# rps-hwc.yaml
+# Hardware configuration for AI85 Rock-Paper-Scissors model
+
+arch: ai85rpsnet        # Model name
+input_dims: [3, 128, 128]  # Channels x Height x Width
+num_classes: 3          # Rock, Paper, Scissors
+
+# Optional: quantization / hw-specific settings
+# Keep these as in Cats vs Dogs unless you want to customize
+per_channel_wts: true
+use_bias: false
+wide_fc: true
