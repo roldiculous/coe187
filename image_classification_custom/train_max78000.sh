@@ -32,4 +32,5 @@ python train.py --epochs 50 --optimizer Adam --lr 0.001 --wd 0 --deterministic -
 # For a much more detailed explanation for the command line argument, you can use --help or check the repository:
 # https://github.com/MaximIntegratedAI/ai8x-synthesis
 
+
     
